@@ -22,5 +22,5 @@ def sums_up_two_numbers(number_1: int, number_2: int):
     """
     Cуммирует два числа и возвращает значение суммы
     """
-
-    return number_1 + number_2
+    summ_ = number_1 + number_2
+    return summ_
