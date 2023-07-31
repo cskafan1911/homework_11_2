@@ -10,6 +10,7 @@ def makes_the_first_letters_uppercase(value: str):
     """
     Делает первые буквы каждого слова заглавными
     """
+
     value_change = ""
 
     for word in value.split(" "):
