@@ -19,6 +19,15 @@ def makes_the_first_letters_uppercase(value: str):
     return value_change
 
 
+def gets_the_area_of_the_circle(radius: int):
+    """
+    Считает площадь круга и возвращает значение
+    """
+    square_ = 3.14 * radius ** 2
+
+    return square_
+
+
 def sums_up_two_numbers(number_1: int, number_2: int):
     """
     Cуммирует два числа и возвращает значение суммы
