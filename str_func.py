@@ -17,3 +17,11 @@ def makes_the_first_letters_uppercase(value: str):
         value_change += word.lower().title() + " "
 
     return value_change
+
+
+def sums_up_two_numbers(number_1: int, number_2: int):
+    """
+    Cуммирует два числа и возвращает значение суммы
+    """
+
+    return number_1 + number_2
